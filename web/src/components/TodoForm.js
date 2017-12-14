@@ -35,7 +35,12 @@ class TodoForm extends Component {
     return (
       <form
         onSubmit={this.handleSubmit}
-        style={{ display: "flex", justifyContent: "center", margin: "10 0" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          margin: "15 0",
+          paddingBottom: "20px"
+        }}
       >
         <Input
           type="text"
