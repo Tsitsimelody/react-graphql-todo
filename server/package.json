@@ -1,0 +1,23 @@
+{
+  "name": "graphql-todos-server",
+  "version": "1.0.0",
+  "description": "Simple todolist server using graphql express",
+  "main": "app.js",
+  "author": "Tsitsi Melody",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.6"
+  }
+}
